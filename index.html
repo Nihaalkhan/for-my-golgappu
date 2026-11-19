@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Universe for Naveen ♡</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="sky"></div>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="container">
+
+    <div class="top-label">
+      ✦ A LITTLE SOMETHING MADE FOR YOU ✦
+    </div>
+
+    <div class="book-scene">
+
+      <div class="book" id="book">
+
+        <!-- COVER -->
+        <section class="page cover active" data-page="0">
+
+          <div class="cover-border"></div>
+
+          <div class="cover-top">
+            A BIRTHDAY KEEPSAKE
+          </div>
+
+          <div class="moon">☾</div>
+
+          <!-- TEDDY -->
+          <div class="bear">
+
+            <div class="bear-ear left"></div>
+            <div class="bear-ear right"></div>
+
+            <div class="bear-head">
+
+              <div class="bear-eye left-eye"></div>
+              <div class="bear-eye right-eye"></div>
+
+              <div class="bear-muzzle"></div>
+              <div class="bear-nose"></div>
+
+              <div class="bear-blush left-blush"></div>
+              <div class="bear-blush right-blush"></div>
+
+            </div>
+
+            <div class="bear-body">
+              <div class="bear-heart">♥</div>
+            </div>
+
+          </div>
+
+          <div class="cover-title">
+            <span>A little</span>
+            <span class="universe">universe</span>
+            <span>for</span>
+            <h1>Naveen</h1>
+          </div>
+
+          <div class="cover-subtitle">
+            Filled with stars, warmth &amp;<br>
+            little things worth smiling about.
+          </div>
+
+          <button class="open-button" onclick="openBook()">
+            Open your little book <span>♡</span>
+          </button>
+
+          <div class="cover-bottom">
+            NOVEMBER 13 · MADE WITH MAGIC ✧
+          </div>
+
+        </section>
+
+
+        <!-- PAGE 1 -->
+        <section class="page inside" data-page="1">
+
+          <div class="page-number">01 — 04</div>
+
+          <div class="decor-star star-a">✦</div>
+          <div class="decor-star star-b">✧</div>
+
+          <div class="page-content">
+
+            <div class="eyebrow">A LITTLE REMINDER</div>
+
+            <h2>Hey, Naveen.</h2>
+
+            <p>
+              In a world that moves a little too fast,
+              I hope you never forget to slow down
+              and appreciate the little things.
+            </p>
+
+            <p>
+              The quiet moments, unexpected laughter,
+              random kindness, beautiful sunsets,
+              and the people who make ordinary
+              days feel a little brighter.
+            </p>
+
+            <div class="quote">
+              “You deserve little moments of happiness,
+              even on the ordinary days.”
+            </div>
+
+            <div class="mini-teddy">🧸</div>
+
+          </div>
+
+          <button class="next-button" onclick="nextPage()">
+            Next page <span>→</span>
+          </button>
+
+        </section>
+
+
+        <!-- PAGE 2: NICKNAMES -->
+        <section class="page inside nickname-page" data-page="2">
+
+          <div class="page-number">02 — 04</div>
+
+          <div class="decor-star star-a">✧</div>
+          <div class="decor-star star-b">✦</div>
+
+          <div class="page-content">
+
+            <div class="eyebrow">HER MANY IDENTITIES 😂</div>
+
+            <h2>And then there's you...</h2>
+
+            <div class="nickname">
+              <span class="nickname-icon">💋</span>
+              <h3>Sexy Naveen</h3>
+              <p>Confidence level: unnecessarily dangerous.</p>
+            </div>
+
+            <div class="nickname">
+              <span class="nickname-icon">🧸</span>
+              <h3>My Golgappu</h3>
+              <p>Certified cute. Absolutely no refunds.</p>
+            </div>
+
+            <div class="nickname">
+              <span class="nickname-icon">💕</span>
+              <h3>Golgappay</h3>
+              <p>Because apparently one nickname wasn't enough for you.</p>
+            </div>
+
+            <div class="nickname strawberry-card">
+              <span class="nickname-icon">🍓</span>
+              <h3>My Strawberry</h3>
+              <p>Sweet, adorable, and somehow always on my mind.</p>
+            </div>
+
+            <div class="nickname strawberry-card">
+              <span class="nickname-icon">🍓🍓</span>
+              <h3>My Strawberries</h3>
+              <p>Don't ask. It's classified information. 😂💕</p>
+            </div>
+
+            <p class="nickname-footer">
+              Honestly, Naveen...<br>
+              which one are you today? 😂
+            </p>
+
+          </div>
+
+          <button class="next-button" onclick="nextPage()">
+            Next page <span>→</span>
+          </button>
+
+        </section>
+
+
+        <!-- PAGE 3: WISHES -->
+        <section class="page inside" data-page="3">
+
+          <div class="page-number">03 — 04</div>
+
+          <div class="decor-star star-a">✧</div>
+          <div class="decor-star star-b">✦</div>
+
+          <div class="page-content">
+
+            <div class="eyebrow">A WISH FOR YOU</div>
+
+            <h2>May life be gentle.</h2>
+
+            <p>
+              May the things you quietly wish for
+              find their way to you.
+            </p>
+
+            <p>
+              May your heart find peace when
+              things get overwhelming, may you
+              always have reasons to laugh,
+              and may the future surprise you
+              in the loveliest ways.
+            </p>
+
+            <div class="wish-box">
+
+              <span>☾</span>
+
+              <p>
+                A little more happiness.<br>
+                A little less worry.<br>
+                And a lot of beautiful memories.
+              </p>
+
+              <span>✧</span>
+
+            </div>
+
+            <div class="floating-bears">
+              🧸 ♡ 🧸
+            </div>
+
+          </div>
+
+          <button class="next-button" onclick="nextPage()">
+            Next page <span>→</span>
+          </button>
+
+        </section>
+
+
+        <!-- PAGE 4: SECRET STAR -->
+        <section class="page inside" data-page="4">
+
+          <div class="page-number">04 — 05</div>
+
+          <div class="decor-star star-a">✦</div>
+          <div class="decor-star star-b">✧</div>
+
+          <div class="page-content">
+
+            <div class="eyebrow">A TINY SECRET</div>
+
+            <h2>Look up sometimes.</h2>
+
+            <p>
+              Somewhere above all the noise,
+              there are stars quietly doing
+              their thing.
+            </p>
+
+            <p>
+              They don't compete with each other.
+              They don't need to be the brightest
+              in the sky. They simply shine.
+            </p>
+
+            <p>
+              And perhaps that's a lovely way
+              to live, too.
+            </p>
+
+            <div class="star-message">
+
+              <button class="magic-star" onclick="starMessage()">
+                ✨
+              </button>
+
+              <span>Tap the star</span>
+
+            </div>
+
+            <div class="mini-teddy teddy-bottom">
+              🧸
+            </div>
+
+          </div>
+
+          <button class="next-button" onclick="nextPage()">
+            Next page <span>→</span>
+          </button>
+
+        </section>
+
+
+        <!-- FINAL PAGE -->
+        <section class="page inside final-page" data-page="5">
+
+          <div class="page-number">05 — 05</div>
+
+          <div class="page-content">
+
+            <div class="eyebrow">AND FINALLY...</div>
+
+            <div class="final-stars">
+              ✧ ⋆ ✦ ⋆ ✧
+            </div>
+
+            <h2>
+              Happy Birthday,<br>
+              Naveen.
+            </h2>
+
+            <p>
+              November 13 is your little reminder
+              that another chapter of your life
+              has begun.
+            </p>
+
+            <p>
+              I hope this chapter is kinder,
+              happier, full of laughter,
+              beautiful surprises, and moments
+              you'll want to keep forever.
+            </p>
+
+            <div class="birthday-card">
+
+              <div class="birthday-teddy">
+                🧸
+              </div>
+
+              <div class="birthday-text">
+
+                <span>For your special day</span>
+
+                <strong>
+                  Sending you a sky full of stars<br>
+                  and a heart full of wishes. ♡
+                </strong>
+
+              </div>
+
+            </div>
+
+            <div class="final-heart">♡</div>
+
+            <div class="birthday-signature">
+              Your little universe awaits. ✨
+            </div>
+
+          </div>
+
+          <button class="next-button restart-button" onclick="restartBook()">
+            Read it again <span>↻</span>
+          </button>
+
+        </section>
+
+      </div>
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <div class="navigation" id="navigation">
+
+      <button class="nav-button" id="backBtn" onclick="previousPage()">
+        ← Back
+      </button>
+
+      <div class="page-dots" id="pageDots"></div>
+
+      <span class="nav-hint">
+        A little book, just for you ♡
+      </span>
+
+    </div>
+
+    <div class="bottom-note">
+      Made of stardust, pink skies &amp; kindness.
+    </div>
+
+  </main>
+
+
+  <!-- SECRET MESSAGE POPUP -->
+  <div class="surprise-popup" id="surprisePopup">
+
+    <div class="popup-card">
+
+      <span class="popup-star">✦</span>
+
+      <p id="popupText"></p>
+
+      <button onclick="closePopup()">
+        Aww, okay ♡
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
